@@ -1,0 +1,83 @@
+#plan{
+    background: #F9F9FB;
+    /* padding: 100px 0; */
+    
+}
+.plan-heading h3{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    text-align: center;
+
+}
+.plan-details{
+    background: #FFFFFF;
+    padding: 60PX 0;
+    text-align: center;
+    border-radius: 20px;
+    transition: all linear 0.5s;
+}
+
+.plan-details img{
+    width: 100%;
+    background: #ECEDF0;
+}
+.plan-details h3{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    
+}
+.plan-details p{
+    color: #726E9E;
+    width: 252px;
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin: 0 auto; 
+     
+}
+.plan-details .price{
+    color: #1BBF00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    position: relative;
+    
+}
+.plan-details .dollar {
+    color: #1BBF00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+.plan-details:hover{
+    background: #6B62C5;
+}
+.plan-details:hover h3{
+    color: #FAFAFE;
+}
+.plan-details:hover p{
+    color: #E6E5F3;
+}
+.plan-details:hover .price{
+    color: #1BBF00;
+}
+.plan-details:hover .dollar{
+    color: #1BBF00;
+}
+.plan-details img:hover{
+    color: #ECEDF0;
+}

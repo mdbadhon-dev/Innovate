@@ -1,0 +1,61 @@
+#like{
+    padding: 100px 0;
+    background: #F9F9FB;
+   
+}
+.like-details h2{
+    color: #030314;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px; 
+    letter-spacing: -2px;
+}
+.social-tag ul li a{
+    color: #726E9E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+    transition: all linear 0.5s;
+}
+.social-tag ul li a:hover{
+    color: #6be758
+}
+.social-tag .news a{
+    margin-left: 50px;
+    color: #726E9E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.social-tag h4{
+    
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 55px; 
+    letter-spacing: -1.5px;
+    margin-left: 80px;
+}
+.social-tag .read-more a{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.like-left img{
+    width: 379px;
+    height: 220px;
+    border-radius: 20px;
+}
+.like-left{
+    margin-top: 28px;
+}
+.like-right{
+    margin-top: 28px;
+
+}

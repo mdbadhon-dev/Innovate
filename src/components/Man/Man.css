@@ -1,0 +1,57 @@
+#man{
+    background: #F8F8FF;
+    padding: 100px 0;
+    position: relative;
+}
+.man-heading h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #141135;
+    padding: 150px 0 80px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.man-bio{
+    padding: 120px 0px 60px 0px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.30);
+}
+.man-bio .icon i{
+    color: #FF7628;
+}
+.man-bio p{
+    color: #726E9E;
+    text-align: center;
+    font-family: 'Paprika', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 34px;
+    
+}
+.man-info h3{
+    color: #221A2C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700; 
+    margin-top: 48px; 
+    
+}
+.man-info p{
+    color: #726E9E;
+    font-family: Paprika;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;  
+    margin-top: 0px; 
+}
+.man-image {
+    position: absolute;
+    top: 190px;
+    left: 520px;
+}

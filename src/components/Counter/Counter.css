@@ -1,0 +1,31 @@
+#counter{
+    background: #F9F9FB;
+    padding: 280px 0;
+    position: relative;
+
+}
+.counter-details h3{
+    color: #1BBF00;
+    font-size: 64px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;   
+}
+.counter-details p{
+    color: #141135;;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 40px; 
+    text-transform: capitalize;  
+}
+.counter-details .cd1{
+    border-right: 1px solid red;
+    
+}
+
+.counter-shape{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}

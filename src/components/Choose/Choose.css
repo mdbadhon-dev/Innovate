@@ -1,0 +1,93 @@
+.container{
+    position: relative;
+}
+#choose{
+    padding: 100px 0;
+    background: #FDFDFD;
+    position: relative;
+}
+.choose-shape{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.choose-circle{
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 50%;
+    position: relative;
+
+}
+.choose-circle::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 13px;
+    width: 25px;
+    height: 25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+}
+
+.choose-point{
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    padding: 0px 146px 0px 28px;
+    transition: all linear 0.5s;
+
+}  
+.choose-point:hover{
+    background: #FFF;
+    box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    padding: 42px 146px 42px 28px;
+
+
+}
+.choose-point p{
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    margin-left: 37px;
+    width: 319px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.choose-right h3{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.choose-right{
+    margin-left: 186px;
+}
+.choose-right p{
+    color: #726E9E;
+    width: 393px;
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.choose-right button{
+    color: #F9F9F9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 20px 40px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border: none;
+
+}
